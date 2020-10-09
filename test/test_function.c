@@ -6,8 +6,8 @@
 #define PROJECT_NAME "Function"
 
 /* Prototypes for all the test functions */
-void test_simple(double,double,double);
-void test_compound(double,double,double);
+void test_simple(void);
+void test_compound(void);
 
 
 /* Start of the application test */
@@ -37,7 +37,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void FindSimple(double,double,double) {
+void FindSimple(void) {
   CU_ASSERT(24000.000000== FindSimple(10000,10,24));
   CU_ASSERT(10.000000 == FindSimple(100,10,1));
   CU_ASSERT(20.000000 == FindSimple(200,10,1));
@@ -48,7 +48,7 @@ void FindSimple(double,double,double) {
   CU_ASSERT(15.000000 == FindSimple(500,10,1));
 }
 
-void FindCompound(double,double,double) {
+void FindCompound(void) {
   CU_ASSERT(98497.326758== FindCompound(10000,10,24));
   CU_ASSERT(110.000000  == FindCompound(100,10,1));
   CU_ASSERT(220.000000  == FindCompound(200,10,1));
