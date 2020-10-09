@@ -36,7 +36,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void FindSimple(void) {
+void test_FindSimple(void) {
   CU_ASSERT(24000.000000== FindSimple(10000.000000,10.000000,24.000000));
   CU_ASSERT(10.000000 == FindSimple(100.000000,10.000000,1.000000));
   CU_ASSERT(20.000000 == FindSimple(200.000000,10.000000,1.000000));
@@ -47,7 +47,7 @@ void FindSimple(void) {
   CU_ASSERT(15.000000 == FindSimple(500.000000,10.000000,1.000000));
 }
 
-void FindCompound(void) {
+void test_FindSimple(void) {
   CU_ASSERT(98497.326758== FindCompound(10000.000000,10.000000,24.000000));
   CU_ASSERT(110.000000  == FindCompound(100.000000,10.000000,1.000000));
   CU_ASSERT(220.000000  == FindCompound(200.000000,10.000000,1.000000));
