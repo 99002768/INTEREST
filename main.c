@@ -3,7 +3,7 @@
 int main()
 {
 	
-double principle,rate,time,simple_intrest;
+double principle,rate,time;
 
 printf("enter principle");
 printf("\n");
