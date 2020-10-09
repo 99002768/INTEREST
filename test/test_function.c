@@ -48,10 +48,10 @@ void test_FindSimple(void) {
 }
 
 void test_FindCompound(void) {
-  CU_ASSERT(98497.32== FindCompound(10000,10,24));
-  CU_ASSERT(110.00  == FindCompound(100,10,1));
-  CU_ASSERT(220.00  == FindCompound(200,10,1));
-  CU_ASSERT(330.00 == FindCompound(300,10,1));
+  CU_ASSERT(98497== FindCompound(1200,5.4,2));
+  CU_ASSERT(110== FindCompound(100,10,1));
+  CU_ASSERT(220  == FindCompound(200,10,1));
+  CU_ASSERT(330 == FindCompound(300,10,1));
 
   /* Dummy fail*/
   CU_ASSERT( 440.00== FindCompound(500.00,10.00,1.00));
