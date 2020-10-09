@@ -10,9 +10,9 @@ double FindSimple(double principle,double rate,double time)
 	return si;
 }
 
-double FindCompound(double P, double R, double T) 
+int FindCompound(double P, double R, double T) 
 {
-   double CI= P*(pow(1+(R/100), T));
+   int CI= P*(pow(1+(R/100), T));
    
    return CI;
 }
