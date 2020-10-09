@@ -8,17 +8,17 @@ double principle,rate,time;
 printf("enter principle");
 printf("\n");
 
-scanf("%.2lf",&principle);
+scanf("%lf",&principle);
 
 printf("enter rate of intrest");
 printf("\n");
 
-scanf("%.2lf",&rate);
+scanf("%lf",&rate);
 
 printf("enter time in months");
 printf("\n");
 
-scanf("%.2lf",&time);
+scanf("%lf",&time);
 
 //principle value greater than zero
 
