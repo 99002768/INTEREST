@@ -5,5 +5,5 @@
 ![cppcheck-action](https://github.com/stepin105091/IntrestCalci/workflows/cppcheck-action/badge.svg)
 ![Valgrind](https://github.com/99002768/INTEREST/workflows/Valgrind/badge.svg)
 ![Unit testing](https://github.com/99002768/INTEREST/workflows/Unit%20testing/badge.svg)
-
+![C/C++ CI](https://github.com/99002768/INTEREST/workflows/C/C++%20CI/badge.svg)
 
