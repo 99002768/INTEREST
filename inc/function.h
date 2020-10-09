@@ -5,6 +5,6 @@
 #include<math.h>
 double FindSimple(double principle,double rate,double time);
 
-double FindCompound(double principle, double rate, double time);
+int FindCompound(double principle, double rate, double time);
 
 #endif
