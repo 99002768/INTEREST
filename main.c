@@ -8,17 +8,17 @@ double principle,rate,time;
 printf("enter principle");
 printf("\n");
 
-scanf("%lf",&principle);
+scanf("%.2lf",&principle);
 
 printf("enter rate of intrest");
 printf("\n");
 
-scanf("%lf",&rate);
+scanf("%.2lf",&rate);
 
 printf("enter time in months");
 printf("\n");
 
-scanf("%lf",&time);
+scanf("%.2lf",&time);
 
 //principle value greater than zero
 
@@ -64,7 +64,7 @@ if(enter==1)
 	
 	double SI=FindSimple(principle,rate,time);
 	
-	printf("%lf",SI);
+	printf("%.2lf",SI);
 	
 }
 
@@ -73,7 +73,7 @@ if(enter==2)
 
 double CI=FindCompound(principle,rate,time);
 	
-	printf("%lf",CI);
+	printf("%.2lf",CI);
 }
 
 if(enter>2)
