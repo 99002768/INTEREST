@@ -71,9 +71,9 @@ if(enter==1)
 if(enter==2)
 {
 
-double CI=FindCompound(principle,rate,time);
+int CI=FindCompound(principle,rate,time);
 	
-	printf("%.2lf",CI);
+	printf("%d",CI);
 }
 
 if(enter>2)
